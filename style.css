@@ -1,0 +1,49 @@
+/* typeface files */
+@font-face {
+    font-family: Google Sans Medium;
+    src: url(fonts/GoogleSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: GT Super Book;
+    src: url(fonts/GT-Super-Text-Book.otf);
+}
+
+
+:root {
+    --title-font: 'Google Sans Medium'; 
+    --base-font: 'GT Super Book';
+
+    --font-size: 20px;
+    --color: darkgrey;
+
+}
+
+main {
+    color: black;
+}
+
+h1 {
+    font-family: var(--title-font);
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0.5em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: var(--base-font);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0.5em;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
