@@ -58,7 +58,8 @@ h1 {
 
 p {
     font-family: var(--base-font);
-    font-size: calc(1.8* var(--font-size));
+
+    font-size: calc(1.2* var(--font-size));
     line-height: var(--leading);
     text-align: left;
     margin-top: 0.5em;
@@ -89,16 +90,16 @@ footer p {
 
 /* ******************************************************************* */
 /* MEDIA QUERIES - LAPTOPS and LARGER SCREENS */
-@media (min-width: 1000px) {
+@media (min-width: 1150px) {
     h1 {
         font-size: calc(4* var(--font-size));
     }
 
     p {
         text-align: center;
-        font-size: calc(2.2* var(--font-size));
+        font-size: calc(2* var(--font-size));
         margin-top: 2.2em;
-        width: 65%;
+        width: 60%;
     }
 
     footer p {
