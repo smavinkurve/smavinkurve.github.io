@@ -62,17 +62,21 @@ p {
     font-size: calc(1.2* var(--font-size));
     line-height: var(--leading);
     text-align: left;
-    margin-top: 0.5em;
+    margin-top: 3em;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 footer p {
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
-    left: 20%;
+    left: 20%; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
     margin-bottom: 0.8em;
+    bottom: 2%;
     font-size: var(--font-size);
 }
 
@@ -103,7 +107,7 @@ footer p {
     }
 
     footer p {
-        font-size: calc(1.2* var(--font-size));
+        font-size: calc(1* var(--font-size));
     }
 
 }
